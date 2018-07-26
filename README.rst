@@ -1,7 +1,7 @@
 astrool
 =======
 
-.. image:: docs/source/logo/logo_text.png
+.. image:: docs/logo/logo_text.png
    :width: 100%
    :align: center
 
