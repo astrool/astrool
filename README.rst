@@ -1,9 +1,13 @@
-.. astrool
+astrool
+=======
+
+.. image:: docs/source/logo/logo_text.png
+   :width: 100%
+   :align: center
 
 astrool is an open source pure Python package dedicated to problems arising in life of
-day to day Astronomy, such as orbit propagation, night sky plotting,
-analemma plotting, conversion between position and velocity vectors and classical
-orbital elements and orbit plotting.
+day to day Astronomy, such as night sky plotting, analemma plotting,
+conversion between position and velocity vectors and classical orbital elements and orbit plotting.
 It is released under the MIT license.
 
 Installation
@@ -11,9 +15,11 @@ Installation
 
 Type in your teminal:
 
-    $ python3 -m pip install --index-url https://test.pypi.org/simple/ astrool
+    $ pip install astrool
 
-And wohoo ! you just got your 0.1dev0 version of astrool!
+You can also clone this repository and run:
+
+    $ python setup.py install
 
 
 Requirements
@@ -24,14 +30,12 @@ astrool requires the following Python packages:
 * NumPy, for basic numerical routines
 * Astropy, for physical units and time handling
 * ephem, for the planetary ephemerides using SPICE kernels
-* matplotlib
-* poliastro
+* matplotlib, for plotting
+* poliastro, for orbit determination
 
 
 Testing
 =======
-
-|codecov|
 
 If installed correctly, the tests can be run using pytest::
 
@@ -52,10 +56,6 @@ please open an issue in the `issue tracker`_.
 Contributing
 ============
 
-.. image:: https://img.shields.io/waffle/label/astrool/astrool/1%20-%20Ready.svg?style=flat-square
-   :target: https://waffle.io/astrool/astrool
-   :alt: 'Stories in Ready'
-
 astrool is a community project, hence all contributions are more than
 welcome! For more information, head to `CONTRIBUTING.rst`_.
 
@@ -63,8 +63,6 @@ welcome! For more information, head to `CONTRIBUTING.rst`_.
 
 Support
 =======
-
-|mailing|
 
 Release announcements and general discussion take place on our `mailing list`_.
 Feel free to join!
@@ -76,8 +74,6 @@ https://groups.io/g/astrool-dev
 
 License
 =======
-
-|license|
 
 astrool is released under the MIT license, hence allowing commercial
 use of the library. Please refer to the COPYING file.

@@ -1,3 +1,0 @@
-[console_scripts]
-astrool = astrool.cli:main
-
